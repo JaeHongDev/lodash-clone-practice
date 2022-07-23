@@ -1,5 +1,4 @@
 /** Used to stand-in for `undefined` hash values. */
-const HASH_UNDEFINED = '__lodash_hash_undefined__'
 
 class Hash {
 
@@ -66,6 +65,7 @@ class Hash {
    */
   has(key) {
     const data = this.__data__
+
     return data[key] !== undefined
   }
 
