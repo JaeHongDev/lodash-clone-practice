@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "unit:test":"jest --config"
+    "unit:test": "jest --config"
   },
   "keywords": [],
   "author": "",
@@ -34,5 +34,8 @@
         "diagnostics": true
       }
     }
+  },
+  "dependencies": {
+    "assert": "^2.0.0"
   }
 }
